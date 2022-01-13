@@ -7,6 +7,11 @@ namespace ExampleBuilders
 	{
 		static void Main(string[] args)
 		{
+			Data data = new Data();
+			data.SetMes(5);
+
+			data.ApresentarMes();
+
 			//Log log = Log.GetInstance();
 
 			//log.PropriedadeLog = "Teste instancia";
@@ -14,10 +19,8 @@ namespace ExampleBuilders
 			//Log log2 = Log.GetInstance();
 			//System.Console.WriteLine(log2.PropriedadeLog);
 
-
-
-			Aluno p1 = new Aluno("Pedro", "Oliveira", ".NET");
-			p1.Apresentar();
+			//Aluno p1 = new Aluno("Pedro", "Oliveira", ".NET");
+			//p1.Apresentar();
 		}
 	}
 }
