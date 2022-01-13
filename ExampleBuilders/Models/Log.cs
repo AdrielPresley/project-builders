@@ -4,6 +4,7 @@ namespace ExampleBuilders.Models
     {
         private static Log? _log;
         public string PropriedadeLog { get; set; }
+
         private Log()
         {
             
