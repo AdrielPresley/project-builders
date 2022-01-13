@@ -7,17 +7,17 @@ namespace ExampleBuilders
 	{
 		static void Main(string[] args)
 		{
-			Log log = Log.GetInstance();
+			//Log log = Log.GetInstance();
 
-			log.PropriedadeLog = "Teste instancia";
+			//log.PropriedadeLog = "Teste instancia";
 
-			Log log2 = Log.GetInstance();
-			System.Console.WriteLine(log2.PropriedadeLog);
+			//Log log2 = Log.GetInstance();
+			//System.Console.WriteLine(log2.PropriedadeLog);
 
 
 
-			//Pessoa p1 = new Pessoa("Paulo", "Santos");
-			//p1.Apresentar();
+			Aluno p1 = new Aluno("Pedro", "Oliveira", ".NET");
+			p1.Apresentar();
 		}
 	}
 }
